@@ -1,0 +1,33 @@
+{
+  "name": "react-mount-mercury",
+  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Mount a mercury component inside of a react component",
+  "license": "MIT",
+  "repository": "ajoslin/react-mount-mercury",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "react",
+    "mercury",
+    "virtual-dom",
+    "mount"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "main-loop-app": "^0.1.0"
+  }
+}
